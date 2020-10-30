@@ -1,9 +1,3 @@
-steps "Deploy Azure PS" {
-             Octopus_Action_DeployRelease_DeploymentCondition = "IfNewer"
-         }
-     }
-}
-
 steps "Email team" {
     condition = "Always"
 
