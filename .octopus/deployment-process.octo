@@ -7,9 +7,9 @@ steps "Email team" {
         properties {
             Octopus_Action_Email_Body = "Hello from CaC"
             Octopus_Action_Email_Subject = "Hello from CaC"
-            Octopus_Action_Email_ToTeamIds = "S__1"
-            Octopus_Action_Email_CCTeamIds = "S__1"
-            Octopus_Action_Email_BccTeamIds = "S__1"
+            Octopus_Action_Email_ToTeamIds = "Everyone"
+            Octopus_Action_Email_CCTeamIds = "Everyone"
+            Octopus_Action_Email_BccTeamIds = "Everyone"
         }
     }
- }
+}
