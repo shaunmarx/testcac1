@@ -13,3 +13,22 @@ steps "Email team" {
         }
     }
 }
+
+steps "Run a Script" {
+
+    actions "Run a Script" {
+        action_type = "Octopus.Script"
+        worker_pool_variable = ""
+
+        properties {
+            Octopus_Action_RunOnServer = "false"
+            Octopus_Action_Script_ScriptSource = "Inline"
+            Octopus_Action_Script_Syntax = "PowerShell"
+            Octopus_Action_Script_ScriptBody = "#"
+        }
+    }
+
+    properties {
+        Octopus_Action_TargetRoles = "Role Green Antelope"
+    }
+}
