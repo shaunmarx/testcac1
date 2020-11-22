@@ -1,6 +1,6 @@
-steps "Run a Scriptd" {
+steps "Run a Scriptda" {
 
-    actions "Run a Scriptd" {
+    actions "Run a Scriptda" {
         action_type = "Octopus.Script"
         properties = {
             Octopus.Action.RunOnServer = "true"
