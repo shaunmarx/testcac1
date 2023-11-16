@@ -1,3 +1,17 @@
 variable "test" {
     value "ddd" {}
 }
+
+variable "Octopus.Aws.Account" {
+    type = "AmazonWebServicesAccount"
+
+    value "fake-aws-account" {
+        description = ""
+    }
+}
+
+variable "Octopus.Aws.Regions" {
+    value "af-south-1" {
+        description = ""
+    }
+}
