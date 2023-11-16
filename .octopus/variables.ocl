@@ -1,7 +1,3 @@
-variable "test" {
-    value "ddd" {}
-}
-
 variable "Octopus.Aws.Account" {
     type = "AmazonWebServicesAccount"
 
@@ -14,4 +10,8 @@ variable "Octopus.Aws.Regions" {
     value "af-south-1" {
         description = ""
     }
+}
+
+variable "test" {
+    value "dddddawdawd" {}
 }
